@@ -186,6 +186,7 @@ input {
     font-family: var(--fc-form);
     font-size: 1.6rem;
     color: var(--fc-texting);
+    background-color: var(--bc-main_prim);
     text-align: left;
     text-indent: 5rem;
 }
@@ -328,10 +329,10 @@ footer {
     }
 
     #contact {
-        background-image: url(./images/stars_background.svg);        
-        background-repeat: no-repeat;
+        background-image: url(./images/background_stars.png);        
+        background-repeat: no-repeat;        
         background-position-x: right;
-        background-size: contain;
+        background-size: contain;        
     }
 
     #form-section {    
@@ -341,7 +342,12 @@ footer {
         margin: auto; 
     }
 
+    textarea {       
+        background-color: var(--bc-main_prim);
+    }
+
     fieldset {
         max-width: 50%;
+        background-color: var(--bc-main_prim);
     }
 }
