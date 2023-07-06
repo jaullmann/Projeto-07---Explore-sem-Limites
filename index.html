@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore sem limites!</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+
+        <section id="top-page">
+            <div id="logo">
+                <img src="./images/astronaut.png" alt="Astronauta solto no espaço">
+            </div>
+            <div id="titulo">
+                <h1>Explore sem limites</h1>
+                <h3>Porque o aprendizado é contínuo</h3>                
+                <a href="#middle-page" id="arrow-img">
+                    <img src="./images/arrow_down.svg" alt="Explore abaixo">
+                </a>                                 
+            </div>        
+        </section>
+    
+        <section id="middle-page">            
+            <div class="cards">
+                <img src="./images/orange_planet.svg" alt="pequeno planeta de cor laranja">
+                <h2>Não pare nunca</h2>
+                <p>
+                    Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade 
+                    de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso 
+                    e a conquista de seus objetivos.
+                </p>
+            </div>
+            <div class="cards">
+                <img src="./images/blue_planet.svg" alt="pequeno planeta de cor azul">
+                <h2>Só volta</h2>
+                <p>
+                    Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde 
+                    para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados 
+                    ou sobrecarregados.
+                </p>
+            </div>
+            <div class="cards">
+                <img src="./images/pink_planet.svg" alt="pequeno planeta de cor rosa">
+                <h2>Só volta</h2>
+                <p>
+                    Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. 
+                    Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o 
+                    poder de cada ação rumo ao objetivo final.
+                </p>
+            </div>            
+        </section>
+
+        <section id="contact">
+            <form id="form-section">    
+                <div class="contato">
+                    <div id="msg-form">
+                        <fieldset>
+                            <legend>Entre em contato</legend>
+                            <input 
+                                type="text"
+                                id="name"
+                                placeholder="Seu nome"
+                                required
+                                minlength="3"/>
+                            <input 
+                                type="email"
+                                id="email"
+                                placeholder="E-mail"
+                                required/>
+                            <textarea 
+                                name="mensagem"
+                                placeholder="Digite sua mensagem aqui..." 
+                                id="message" 
+                                cols="1" 
+                                rows=auto
+                                maxlength="1000"
+                                required></textarea>
+                        </fieldset>
+                        <div id="form-button">
+                            <button class="button" form="form-section">Enviar Mensagem</button> 
+                        </div>                              
+                    </div>                
+                </div>
+            </form>
+        </section>         
+        
+        <footer> © 2023 - Rocketseat Explorer </footer>
+
+    </main>
+    
+    
+</body>
+</html>
